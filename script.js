@@ -75,4 +75,3 @@ String.prototype.toUpperCase = function() {
 }
 console.log("hola".toUpperCase()); 
 console.log("OTRA FRASE".toUpperCase());
-
