@@ -28,6 +28,7 @@
 
 ### Diferencias entre asignar métodos al prototype o usar Object.assign
 *Prototype:* Solo copias un método específico.
+
 *Object.assign:* Copia todas las propiedades y métodos del objeto a prototype de un tiro, más rápido si hay muchos métodos.
 
 Si tenés varios métodos en personPrototype, usar Object.assign es más práctico y limpio. Si solo un método, asignarlo directamente está bien.
